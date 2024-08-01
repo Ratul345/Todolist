@@ -52,15 +52,15 @@ Make sure you have [Node.js](https://nodejs.org/en/) installed.
 
 To start the development server, run:
 
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    # or
-    bun dev
-    ```
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
 
 
