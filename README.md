@@ -1,8 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TodoList
+
+This is a Todo List application built using React and TypeScript. The project aims to help users manage their tasks efficiently with a simple and intuitive interface.
+
+## Features
+
+- Add, edit, and delete tasks
+- Persist tasks using local storage
+- Interactive UI components using ShadCN and Lucide React icons
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces
+- **TypeScript**: A typed superset of JavaScript
+- **ShadCN UI**: A component library
+- **Lucide React**: An icon library
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/en/) installed.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/Ratul345/Todolist.git
+    cd Todolist
+    ```
+
+2. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Initialize ShadCN UI:
+
+    ```bash
+    npx shadcn-ui@latest init
+    ```
+
+4. Install Lucide React:
+
+    ```bash
+    npm install lucide-react
+    ```
+
+### Running the Development Server
+
+To start the development server, run:
 
 ```bash
 npm run dev
@@ -12,25 +60,22 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [ShadCN UI Documentation](https://shadcn.dev/)
+- [Lucide React Documentation](https://lucide.dev/docs/lucide-react)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribution
 
-## Deploy on Vercel
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
